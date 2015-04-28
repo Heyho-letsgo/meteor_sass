@@ -1,21 +1,31 @@
 /* CSS declarations go here */
 @import '.meteor/local/build/programs/server/assets/packages/reywood_bootstrap3-sass/bootstrap';
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$open-sans: 'Open Sans', sans-serif;
+$oswald: 'Oswald';
 
 
 #main, div.container {
 }
 
 #container1 {
+  font-family: $roboto-slab;
   color: cornflowerblue;
   background-color: greenyellow;
 }
 
 #container2 {
+  font-family: $open-sans;
   color: yellowgreen;
   background-color: cadetblue;
  }
 
 #container3 {
+  font-family: $oswald;
   color: darkred;
   background-color: darkorange;
 }
